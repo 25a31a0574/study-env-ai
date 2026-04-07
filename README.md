@@ -4,7 +4,7 @@
 Students often struggle to manage time effectively across multiple subjects. This project simulates a study planning environment where an AI agent learns to optimize study schedules.
 
 ## Solution
-We created a reinforcement learning-style environment where:
+I created a reinforcement learning-style environment where:
 - The agent selects actions (study subject or take break)
 - The system updates state (time, remaining tasks, energy)
 - Rewards are assigned based on productivity
