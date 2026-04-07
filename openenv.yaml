@@ -1,7 +1,7 @@
 version: "1.0"
-name: "your-environment-name"  # e.g., traffic-control-env
+name: "study-env-ai"
 entrypoint: "python3 inference.py"
-type: "gymnasium"             # OpenEnv uses Gymnasium-style APIs
+type: "gymnasium"
 metadata:
-  task: "short description of your RL task"
-  render_modes: ["rgb_array", "human"]
+  runtime: "python3.10"
+  framework: "pytorch"
