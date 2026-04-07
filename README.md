@@ -1,8 +1,21 @@
+---
+title: Study Env AI
+emoji: 🤖
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_file: inference.py
+pinned: false
+---
+
 # AI Study Planner Environment
 
 ## Problem Statement
-Students often struggle to manage time effectively across multiple subjects. This project simulates a study planning environment where an AI agent learns to optimize study schedules.
+Students often struggle...# AI Study Planner Environment
 
+## Problem Statement
+Students often struggle to manage time effectively across multiple subjects. This project simulates a study planning environment where an AI agent learns to optimize study schedules.
+“This environment helps students (especially engineering students) optimize study planning using AI-based decision making.”
 ## Solution
 I created a reinforcement learning-style environment where:
 - The agent selects actions (study subject or take break)
@@ -23,3 +36,4 @@ I created a reinforcement learning-style environment where:
 
 ```bash
 python inference.py
+Update for rebuild
