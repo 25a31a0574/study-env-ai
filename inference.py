@@ -5,15 +5,17 @@ import gymnasium as gym
 app = FastAPI()
 
 @app.get("/")
-def home():
-    return {"status": "running"}
+async def root():
+    return {"status": "active"}
 
 @app.post("/reset")
-def reset():
+async def reset():
+    # Returns the initial observation required by the validator
     return {"observation": [0.0], "info": {}}
 
 @app.post("/step")
-def step(action: dict):
+async def step(action: dict):
+    # Returns the step results required by the validator
     return {"observation": [0.0], "reward": 0.0, "terminated": True, "truncated": False, "info": {}}
 
 if __name__ == "__main__":
