@@ -1,6 +1,6 @@
 [project]
 name = "study-env-ai"
-version = "1.0.0"
+version = "1.0.1"
 description = "Study Planner OpenEnv - real-world AI agent training environment"
 readme = "README.md"
 license = { text = "MIT" }
