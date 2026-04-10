@@ -1,4 +1,4 @@
----
+ ---
 title: Study Planner OpenEnv
 emoji: 📚
 colorFrom: blue
@@ -6,7 +6,9 @@ colorTo: green
 sdk: docker
 pinned: false
 license: mit
-short_description: Real-world Study Planner environment for AI agent training (OpenEnv spec)
+short_description: AI Study Planner environment for real-world agent training
+
+
 ---
 
 # Study Planner OpenEnv
